@@ -45,3 +45,50 @@
     background-color: #8a2b06;
     color: white;
   }
+ 
+  .deletebtn button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .cart-list{
+    display: block;
+    border-bottom: 2px solid #8a2b06;
+    font-weight: bold;
+    padding: 0px;
+  }
+
+ .quantity{
+  text-align: right;
+ }
+  
+  .price{
+    color:#8a2b06;
+    margin-top: 0px;
+  }
+
+.cart-list button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #8a2b06;
+  border: 1px solid #8a2b06;
+  width: 8rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0 3px 0 3px;
+}
+
+.cart-list button:hover,
+.cart-list button:active {
+  background-color: #8a2b06;
+  color: white;
+}
